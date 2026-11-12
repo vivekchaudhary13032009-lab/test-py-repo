@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3 - Vivek Kumar Chaudhary</title>
+
+  <style>
+    div.block, p.block, h3.block {
+      background-color: #cfe8ff;
+      border: 1px solid #1f3a5f;
+      margin: 6px 0;
+      padding: 4px;
+    }
+
+    span, a, strong, em {
+      background-color: #ffe9a8;
+      border: 1px solid #b58900;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Block and Inline Elements</h1>
+  <p>In this page I am checking how block and inline tags behave in the layout.</p>
+
+  <hr>
+
+  <h2>1. Block Elements</h2>
+  <p>
+    Every block element starts on a new line and takes the full width of the page,
+    even if the text inside it is short.
+  </p>
+
+  <div class="block">This is a div. It takes the full line.</div>
+  <p class="block">This is a paragraph. It also takes the full line.</p>
+  <h3 class="block">This is a heading. Same thing here.</h3>
+  <div class="block">Another div below it, so it goes to a new line.</div>
+
+  <hr>
+
+  <h2>2. Inline Elements</h2>
+  <p>
+    Inline elements do not start on a new line. They stay in the same line
+    and take only as much space as their content needs.
+  </p>
+
+  <p>
+    My name is <span>Vivek</span>, I study <strong>CSE</strong> and my
+    favourite subject is <em>C Programming</em>. You can visit
+    <a href="https://www.google.com" target="_blank">Google</a> for more
+    help. All of these boxes are in one single line.
+  </p>
+
+  <hr>
+
+  <h2>3. Block and Inline Together</h2>
+  <div class="block">
+    This block has an inline <span>span</span> and a
+    <strong>strong</strong> text inside it. The block is wide,
+    but the inline parts are small.
+  </div>
+
+  <h2>Difference</h2>
+  <table border="1" cellpadding="6" cellspacing="0">
+    <tr>
+      <th>Block</th>
+      <th>Inline</th>
+    </tr>
+    <tr>
+      <td>Starts on a new line</td>
+      <td>Stays in the same line</td>
+    </tr>
+    <tr>
+      <td>Takes the full width</td>
+      <td>Takes only the needed width</td>
+    </tr>
+    <tr>
+      <td>div, p, h1 to h6</td>
+      <td>span, a, strong, em</td>
+    </tr>
+  </table>
+
+  <div style="position: fixed; bottom: 10px; left: 10px;">
+    <b>By: Vivek Kumar Chaudhary</b><br>
+    <b>Roll No: 2026b01010830</b>
+  </div>
+
+</body>
+
+</html>
